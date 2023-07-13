@@ -1,0 +1,35 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 50%;
+}
+
+#viewer-content, #offers-section, #dynamic-section, #gesture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+#offers-section {
+    margin: 2px 2px 0 0;
+    height: 70%;
+}
+
+#dynamic-section {
+    margin: 2px 2px 0 0;
+    height: 30%;
+}
+
+#gesture-section {
+    margin: 2px 0 0 0;
+}
