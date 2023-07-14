@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 rotationY -= 90;
             }
         }
+
         cube.style.setProperty('--rotation', `rotateX(${rotationX}deg) rotateY(${rotationY}deg)`);
     });
 
